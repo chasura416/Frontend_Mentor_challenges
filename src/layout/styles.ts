@@ -4,28 +4,41 @@ export const LeftLayout = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 50%;
 
   & > .Bg_line {
     position: relative;
+    right: 290px;
+    bottom: 70px;
   }
 
   & > .Box {
     position: absolute;
-    top: 0;
-    right: 0;
+    right: 215px;
+    z-index: 1;
   }
 
   & > .Woman {
     position: absolute;
   }
   
-`
+`;
 
 export const RightLayout = styled.div`
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-flow: column;
-  width: 100px;
-  background-color: red;
-`
+  /* background-color: red; */
+`;
+
+export const Arrow = styled.div`
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+
+
+  * > .img {
+    height: 7px;
+  }
+`;
