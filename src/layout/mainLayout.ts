@@ -5,6 +5,6 @@ export const MainLayout = styled.div`
   height: 100vh;
   background-color: hsl(273, 75%, 66%);
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center; 
 `
