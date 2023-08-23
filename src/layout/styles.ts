@@ -36,9 +36,4 @@ export const Arrow = styled.div`
   width: 250px;
   display: flex;
   justify-content: space-between;
-
-
-  * > .img {
-    height: 7px;
-  }
 `;
