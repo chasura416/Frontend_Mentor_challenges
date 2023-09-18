@@ -19,6 +19,11 @@ const main2 = () => {
           <div>하단 박스3</div>
         </St.LowerBoxWrapper>
       </St.BoxWrapper>
+      <div>
+        여기는 후터
+        <div>skilled</div>
+        <button>여기는 버튼</button>
+      </div>
     </St.Layout>
   );
 };
